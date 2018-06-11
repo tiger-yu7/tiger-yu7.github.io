@@ -6,38 +6,51 @@
 */
 
 body, html {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Tahoma, sans-serif;
 	font-size:24px;
 	font-weight:normal;
-	/* Same as above */
-	font: normal 24px Arial, Helvetica, sans-serif;
-
 	margin:0;
 	height:100%;
 	width:100%;
 }
 
+a.text-link {
+	color:white;
+	text-decoration-line:none;
+}
+
 .box-1 {
-	background-image: url("background-image.jpg");
+	background: url("background-image.jpg");
 	height: 100%;
 	background-position:center;
 
-	width:85%;
+	width:100%;
 	margin:auto;
 	text-align:center;
-	padding:20px;
+	padding-top:15%;
+	padding-bottom:15%;
 }
 
 .box-1-title {
-	margin-top:10%;
-	font-size:36px;
+	font-size:72px;
 	color:white;
-	text-decoration-line: overline;
+	line-height:1em;
+	text-shadow: 2px 2px black;
 } 
 
 .box-1-subtitle {
-	margin-bottom:10%;
-	font-size: 29px;
+	font-size: 16px;
 	color:white;
-	text-decoration-line: underline;
+	line-height:1.5em;
+	text-shadow: 1px 1px black;
+}
+
+hr {
+    display: block;
+    border: 1;
+    border-top: 1px solid #fff;
+    padding:0;
+    margin-bottom:0%;
+    margin-top:0%;
+    width:30%;
 }
