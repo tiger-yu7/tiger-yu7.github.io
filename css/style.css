@@ -1,6 +1,12 @@
 body html {
 	margin:0;
 	padding:0;
+	height: 100%;
+}
+
+.container {
+	padding:0;
+	margin:0;
 }
 
 .background-image {
@@ -10,6 +16,17 @@ body html {
 	top: 0;
 	bottom: 0;
 	height: 65vh;
+}
+
+.about-me {
+	color:black;
+}
+
+.about-me-image {
+	object-fit: cover;
+	height:100%;
+	width:100%;
+	padding:0;
 }
 
 .title {
@@ -31,6 +48,7 @@ body html {
 #name {
 	margin-bottom: 0px;
 }
+
 #name-description {
 	font-size: 1.5em;
 	margin-bottom: 10px;
@@ -41,3 +59,28 @@ body html {
 	color: white;
 }
 
+#profile {
+	margin-top: 40px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+#about-me-title {
+	text-align:center;
+	margin-top: 15px;
+}
+
+#profile-hr {
+	padding:0;
+	margin-top:0;
+	margin-bottom:0;
+	width:50%;
+	border-top: 3px solid rgba(0, 0, 0, 0.75);
+}
+
+.about-me-info {
+	text-align: center;
+	font-size: 1.5rem;
+	padding-left: 20px;
+	padding-right: 20px;
+}
