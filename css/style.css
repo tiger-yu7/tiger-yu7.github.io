@@ -92,8 +92,8 @@ body html {
 #skills {
 	background-color: rgb(64, 64, 64);
 	padding-top: 20px;
-	padding-left: 150px;
-	padding-right: 150px;
+	padding-left: 20%;
+	padding-right: 20%;
 	padding-bottom: 45px;
 }
 
@@ -107,4 +107,8 @@ body html {
 	background-color: black;
 	border-color: white;
 	color: white;
+}
+
+.list-group {
+	padding-bottom: 10px;
 }
