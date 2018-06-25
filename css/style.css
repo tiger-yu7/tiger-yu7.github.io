@@ -88,3 +88,23 @@ body html {
 	width:50%;
 	border-top: 3px solid rgba(0, 0, 0, 0.75);
 }
+
+#skills {
+	background-color: rgb(64, 64, 64);
+	padding-top: 20px;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-bottom: 45px;
+}
+
+#skills-title {
+	text-align: center;
+	color: white;
+	margin-bottom: 25px;
+}
+
+.list-title {
+	background-color: black;
+	border-color: white;
+	color: white;
+}
