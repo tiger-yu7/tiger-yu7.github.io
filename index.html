@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Parallax Javascript -->
+
     <title>Tiger Yu</title>
   </head>
   <body>
@@ -34,16 +36,20 @@
 				<br>
 				<p class="about-me-info">Hi! I'm Tiger (Yes that's actually my name). I'm currently an undergraduate student at the University of Toronto studying Computer Science. My goal is to go into software development after I graduate.</p>
 				<br>
-				<p class="about-me-info">Some of my interests include hockey, cars, and trying my best to be engaged with current events. I also have a passion for aviation. I love to attend air shows and hope to one day learn how to fly a plane and be a pilot.</p>
+				<p class="about-me-info">Some of my interests include hockey, cars, and trying my best to be engaged with current events.</p>
 			</div>
 		</div>
 	</div>
+	<div class="parallax-window"></div>
+	<!-- <div class="parallax-window" data-parallax="scroll" data-image-src="css/background-image.jpg" data-z-index="2"></div> -->
 	<div class ="container-fluid" id="skills">
 		<h1 class="display-3" id="skills-title">MY SKILLS</h1>
+		<hr class="white-hr">
 		<div class ="row skills">
 		 <div class="col-lg-4">
 		 	<ul class="list-group">
 			  <li class="list-group-item list-title">Programming Languages</li>
+			  <li class="list-group-item">Javascript</li>
 			  <li class="list-group-item">Python</li>
 			  <li class="list-group-item">Java</li>
 			  <li class="list-group-item">C/C#</li>
@@ -54,23 +60,24 @@
 		 <div class="col-lg-4">
 		 	<ul class="list-group">
 			  <li class="list-group-item list-title">Frameworks/Technologies</li>
+			  <li class="list-group-item">ReactJS</li>
 			  <li class="list-group-item">Unix/Bash</li>
 			  <li class="list-group-item">Git/Version Control</li>
-			  <li class="list-group-item">Unity Game Engine</li>
 			  <li class="list-group-item">Bootstrap 4</li>
 			</ul>		 	
 		 </div>
 		 <div class="col-lg-4">
 		 	<ul class="list-group">
-			  <li class="list-group-item list-title">Other</li>
-			  <li class="list-group-item">Native Fluency in English and Mandarin</li>
-			  <li class="list-group-item">Can Name Just About Any Car on the Street</li>
+			  <li class="list-group-item list-title">Familiar Software</li>
+			  <li class="list-group-item">IntelliJ IDEA, PyCharm IDE</li>
+			  <li class="list-group-item"></li>
 			</ul>		 	
 		 </div>
 		</div>
 	</div>
 	<div class ="container-fluid" id="portfolio">
 		<h1 class="display-3" id="skills-title">MY PORTFOLIO</h1>
+		<hr class="white-hr">
 		<div class ="row skills">
 		 <div class="col-xl-4">
 		 	<div class="card" style="width:400px">
@@ -106,6 +113,7 @@
 	</div>
 	<div class ="container-fluid" id="portfolio">
 		<h1 class="display-3" id="skills-title">CONTACT ME</h1>
+		<hr class="white-hr">
 		<form class="contact-form" action="https://formspree.io/tigeryu7@gmail.com" method="POST">
 		  <div class="input-group mb-3 input-group-sm">
 		     <div class="input-group-prepend">
@@ -133,5 +141,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+    <script src="js/script.js"></script>
+
   </body>
 </html>
