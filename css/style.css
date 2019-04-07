@@ -20,15 +20,16 @@ body html {
 }
 
 .about-me {
-	color:white;
+	color:black;
 	margin: 0px;
+	text-align: left;
 }
 
 .about-me-image {
 	object-fit: cover;
 	height:70%;
 	width:70%;
-	text-align: center;
+	text-align: left;
 	padding:0;
 	box-sizing:inherit;
 	border-radius: 5%;
@@ -44,10 +45,10 @@ body html {
 }
 
 .about-me-info {
-	text-align: center;
-	font-size: 1.0rem;
-	padding-top: 50px;
-	padding-left: 20px;
+	text-align: left;
+	font-size: 1.2rem;
+	padding-top: 20px;
+	padding-left: 1rem;
 	padding-right: 20px;
 }
 
@@ -95,11 +96,11 @@ body html {
 	border-top: 3px solid rgba(0, 0, 0, 0.75);
 }
 
-#skills {
-	background-color: rgb(0, 0, 0);
+.content-container {
+	background-color: rgb(255, 252, 240);
 	padding-top: 50px;
-	padding-left: 20%;
-	padding-right: 20%;
+	padding-left: 5%;
+	padding-right: 5%;
 	padding-bottom: 75px;
 }
 
@@ -112,15 +113,27 @@ body html {
 	padding-bottom: 75px;
 }
 
-#skills-title {
-	text-align: center;
-	color: white;
+.category-title {
+	text-align: left;
+	color: black;
 	margin-bottom: 0px;
+	font-weight: 10px;
+}
+
+.inner-content-row {
+	max-width: 1460px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.skills-subtitle {
+	font-size: 2.0rem;
+	color: blacke;
 }
 
 #subtitle {
 	text-align: center;
-	color: white;
+	color: black;
 	margin-top: 15px;
 	font-size: 1.5rem;
 	margin-bottom: 30px;
@@ -132,10 +145,35 @@ body html {
 	color: white;
 }
 
+.skills-rating {
+	float: right;
+}
+
+.list-group{
+	padding-top: 0.5rem;
+	margin-bottom: 5%;
+}
+
+.skills-group-other{
+	padding-top: 0.5rem;
+	margin-bottom: 1.5rem;
+}
+
 .list-item {
-	background-color: white;
-	border-color: rgba(38, 12, 12, 0.79);
-	color: black;
+	padding-left: 2%;
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+	font-size: 1.2rem;
+	background-color: rgb(29, 29, 29);
+	border-color: rgb(29, 29, 29);
+	color: white;
+}
+
+.list-header {
+	padding-top: 0.5rem;
+	margin-right: 0.1rem;
+	font-size: 1.3rem;
+	color: white;
 }
 
 .list-group {
@@ -143,14 +181,15 @@ body html {
 }
 
 .card {
+	display: inline-block
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
 }
 
 .contact-form {
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 2rem;
+	margin-right: 2rem;
 }
 
 #form-name {
@@ -170,8 +209,15 @@ body html {
 	padding-right: 12px;
 }
 
+.contactme-form {
+	max-width: 1000px
+}
+.half-input {
+	max-width: 600px;
+}
+
 .white-hr {
-	border-color: white;
+	border-color: black;
 	margin-top: 10px;
 	margin-left:auto;
 	margin-right: auto;
@@ -195,4 +241,8 @@ body html {
     min-height: 1000px;
     background: transparent;
     background-attachment: fixed;
+}
+
+.button-wrapper-right {
+	text-align: right;
 }

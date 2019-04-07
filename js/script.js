@@ -5,6 +5,15 @@ var n_windows = document.getElementsByClassName("parallax-window").length;
 var n_images = images.length;
 
 $(document).ready(function(n_images){
+	parallaxGenerate();
+	$('#btn-read-more1').click(function(){
+		$('#project-info1').fadeToggle();
+		parallaxGenerate();
+	});
+	parallaxGenerate();
+});
+
+function parallaxGenerate() {
 	$('.parallax-cover').parallax({
 		imageSrc: (path + cover),
 		zIndex: -5,
@@ -21,5 +30,4 @@ $(document).ready(function(n_images){
 			bleed: 100
 		});
 	});
-});
-
+}
