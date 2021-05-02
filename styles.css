@@ -1,0 +1,63 @@
+body {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+.snapContainer {
+    scroll-snap-align: start;
+    position: relative;
+}
+
+.topNavContainer {
+    overflow: hidden;
+    padding-right: 34px;
+}
+
+.topNavItem {
+    float: right;
+    color:gray;
+    text-align: center;
+    padding: 66px 36px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.homeTextContainer {
+    overflow: hidden;
+    padding-left: 238px;
+    padding-top: 210px;
+}
+
+.homeTitle {
+    font-size: 90px
+}
+
+.homeSubtitle {
+    font-size: 70px
+}
+
+.arrowContainer {
+    text-align: center;
+    padding-top: 350px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 10px 10px 0;
+    display: inline-block;
+    padding: 3px;
+    width: 25px;
+    height: 25px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.worksContainer {
+    padding-top: 50px;
+    padding-left: 238px;
+    height: 1200px;
+}
+
+.worksTitle {
+    font-size: 40px;
+}
