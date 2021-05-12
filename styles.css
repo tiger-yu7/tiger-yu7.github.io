@@ -18,10 +18,15 @@ body {
 
 .worksContainer {
     scroll-snap-align: start;
-    padding-top: 50px;
-    padding-left: 238px;
+    padding-top: 3vh;
+    padding-left: 10%;
+    padding-right: 10%;
     min-height: 100vh;
     background-color: grey;
+}
+
+.projectContainer {
+    padding: 0;
 }
 
 .topNavContainer {
@@ -87,7 +92,8 @@ a:hover {
 }
 
 .worksTitle {
-    font-size: 40px;
+    font-size: 3.5vh;
+    padding-bottom: 3vh;
 }
 
 .btn {
@@ -111,6 +117,29 @@ a:hover {
     width: 30px;
 }
 
+.projectImage {
+    max-width:100%;
+    max-height:100%;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.projectTitle {
+    font-size: 3.5vh;
+}
+
+.projectDescription {
+    font-size: 2.25vh;
+}
+
+.projectLink {
+    font-size: 2.25vh;
+}
+
+.projectSpacing {
+    height: 4vh;
+}
+
 @media screen and (min-width: 601px) {
     .homeTitle {
         font-size: 7vh;
@@ -125,6 +154,11 @@ a:hover {
     }
 
     .homeTextContainer {
+        padding-left: 17%;
+        padding-right: 17%;
+    }
+
+    .worksContainer {
         padding-left: 17%;
         padding-right: 17%;
     }
