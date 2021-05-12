@@ -94,6 +94,7 @@ a:hover {
 .worksTitle {
     font-size: 3.5vh;
     padding-bottom: 3vh;
+    font-weight: 600;
 }
 
 .btn {
@@ -126,6 +127,7 @@ a:hover {
 
 .projectTitle {
     font-size: 3.5vh;
+    font-weight: 600;
 }
 
 .projectDescription {
@@ -134,6 +136,7 @@ a:hover {
 
 .projectLink {
     font-size: 2.25vh;
+    font-weight: 600;
 }
 
 .projectSpacing {
