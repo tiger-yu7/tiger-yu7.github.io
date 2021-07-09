@@ -1,0 +1,184 @@
+.headingSection {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    justify-content: center;
+    display: grid;
+}
+
+.sectionTitleText {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.projectTitle {
+    font-size: 2.5rem;
+}
+
+.projectSubtitle {
+    font-size: 0.85rem;
+    font-weight: 350;
+    margin-bottom: 0.25rem
+}
+
+.backgroundOrange {
+    background-color:  rgb(248,105,105)!important;
+}
+
+.bannerSection {
+    justify-content: center;
+    display: flex;
+    padding-left: 1.5rem;
+}
+
+.projectDescriptionSubtitle{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.fontWeight400 {
+    font-weight: 400;
+}
+
+.fontWeight600 {
+    font-weight: 600;
+}
+
+.width70rem {
+    width: 70rem;
+}
+
+.wireframeSize {
+    width: 13rem;
+}
+
+.sectionParagraph {
+    font-size: 1.1rem;
+}
+
+.smallSubtitle {
+    font-size: 0.75rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.section {
+    background-color: white!important;
+    justify-content: center;
+    display: flex;
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+    padding-left: 1.5rem;
+}
+
+.coverSection {
+    padding-top:1rem;
+    padding-bottom:1rem;
+    padding-left:2rem;
+    padding-right:2rem;
+}
+
+.bannerText {
+    font-size: 5vh;
+}
+
+.banner {
+    height: 10rem;
+    align-content: center;
+}
+
+.banner1 {
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(222,222,222,0.25) 0%, rgb(248,105,105) 59%);
+    height: 20rem;
+}
+
+.banner2 {
+    background: rgb(46,75,177);
+background: linear-gradient(180deg, rgba(46,75,177,1) 0%, rgba(52,83,196,1) 29%, rgba(222,222,222,1) 100%);
+    height: 40rem;
+}
+
+.mainContainer {
+    background-color: rgba(222,222,222,0.25);
+}
+
+.centeredImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centeredText {
+    text-align: center;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.indent {
+    margin-left: 1.0em;
+}
+
+.greyText {
+    color: grey;
+}
+
+.lightOrange {
+    color:rgb(248,105,105)!important;
+}
+
+.black {
+    color: black;
+}
+
+.blockDisplay {
+    display: block;
+}
+
+.scaled {
+    width: 100%;
+}
+
+.heightAuto {
+    height: auto;
+}
+
+.maxWidth100 {
+    max-width: 125%;
+}
+
+.scaled50 {
+    width: 50%;
+}
+
+.scaled33 {
+    width: 33%;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+}
+
+.icon {
+    vertical-align: baseline;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}

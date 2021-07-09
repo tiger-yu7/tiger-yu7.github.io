@@ -1,0 +1,254 @@
+body {
+    font-family: Segoe UI;
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.homeContainer {
+    height: 0px;
+    z-index:100;
+    position:relative;
+    top:-100%;
+    width:100%
+}
+
+.worksContainer {
+    padding-top: 3vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    min-height: 100vh;
+}
+
+.aboutContainer {
+    padding-top: 3vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    min-height: 100vh;
+}
+
+.projectContainer {
+    padding: 0;
+}
+
+.topNavContainer {
+    padding-right: 3vw;
+    padding-top: 3vh;
+    height: 10vh;
+}
+
+.topNavItem {
+    float: right;
+    color:gray;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2vh;
+    padding-left: 3vw;
+}
+
+.homeTextContainer {
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 78vh;
+    color: rgba(0,0,0,0.60);
+}
+
+.homeTitle {
+    font: normal normal 600 5em/1.2 Segoe UI;
+    font-size: 4.4vh;
+    text-align: left;
+    padding-top: 25vh;
+}
+
+.homeLink {
+    color: rgba(0,0,0,0.60);
+    text-decoration: none;
+}
+
+.homeLink:hover {
+    color: rgba(0,0,0,0.40);
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+
+.homeSubtitle {
+    font: normal normal normal Segoe UI;
+    font-size: 3vh;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.homeLinks {
+    padding-top: 2vh;
+}
+
+.arrowContainer {
+    text-align: center;
+    height: 10vh;
+}
+
+.right {
+    float: right;
+}
+
+.verticalAlignedMiddle {
+    vertical-align: middle;
+}
+
+.noLeftRightPadding {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+#gradient-canvas {
+    width:100%;
+    height:100%;
+    --gradient-color-1: #ffa69e; 
+    --gradient-color-2: #b8f2e6; 
+    --gradient-color-3: #aed9e0;  
+    --gradient-color-4: #deaaff;
+    z-index: 0!important;
+  }
+
+.arrow {
+    border: solid black;
+    border-width: 0 10px 10px 0;
+    display: inline-block;
+    padding: 3px;
+    width: 25px;
+    height: 25px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.worksTitle {
+    font-size: 3.5vh;
+    padding-bottom: 3vh;
+    font-weight: 600;
+}
+
+.btn {
+    padding: 2px;
+    width: 50;
+    height: 50;
+}
+
+.btn-light {
+    background-color: white;
+    border-color: white;
+}
+
+.btn-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.iconImage {
+    height: 30x;
+    width: 30px;
+}
+
+.projectImage {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.projectImage {
+    max-width:100%;
+    max-height:100%;
+    border-radius: 15px;
+}
+
+.aboutImage {
+    vertical-align: middle;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+}
+
+.centerAligned {
+    text-align: center;
+}
+
+.projectTitle {
+    font-size: 3.5vh;
+    font-weight: 600;
+}
+
+.projectDescription {
+    font-size: 2.25vh;
+}
+
+.projectLink {
+    font-size: 2.25vh;
+    font-weight: 600;
+}
+
+.projectSpacing {
+    height: 4vh;
+}
+
+.nav-link {
+    font-size: 1.25rem;
+    padding-left: 1rem!important;
+    padding-right: 1rem!important;
+}
+
+.navbar {
+    position: absolute;
+}
+
+.navbarImgMargin {
+    margin-right: 1rem;
+}
+
+@media screen and (min-width: 601px) {
+    .homeTitle {
+        font-size: 7vh;
+        text-align: left;
+        margin-left: -5px;
+    }
+
+    .homeSubtitle {
+        font-size: 3.25vh;
+        text-align: left;
+        margin-left: -3px;
+    }
+
+    .homeTextContainer {
+        padding-left: 17%;
+        padding-right: 17%;
+    }
+
+    .worksContainer {
+        padding-left: 17%;
+        padding-right: 17%;
+    }
+
+    .btn-light {
+        background-color: white;
+        border-color: white;
+    }
+
+    .iconImage {
+        height: 5vh;
+        width: 5vh;
+        aspect-ratio: auto 50/50;
+    }
+
+    .btn-padded {
+        margin-left: 20px;
+    }
+  }
